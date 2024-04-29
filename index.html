@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="regform">
+      <h1>Sign up</h1>
+      <form action="" id="form">
+        <div class="input-group">
+          <label class="textlabel" for="name">User Name</label>
+          <input type="text" id="name" name="name" />
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label class="textlabel" for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label class="textlabel" for="pwd">Password</label>
+          <input type="password" name="pwd" id="pwd" />
+          <div class="error"></div>
+        </div>
+        <div class="radio">
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label>
+          <div class="error"></div>
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

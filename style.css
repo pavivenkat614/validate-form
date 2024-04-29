@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(21, 98, 166);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+.regform{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: rgba(179, 246, 25, 0.567);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(21, 98, 166);
+
+}
+
+#form button{
+    background-color: rgb(21, 98, 166);
+    color: white;
+    border: 1px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;   
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(21, 98, 166);
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(21, 98, 166);
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+.error{
+    color:brown;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input.sucess input{
+    border-color: blue;
+}
+
+.input.error input{
+    border-color: red;
+}
